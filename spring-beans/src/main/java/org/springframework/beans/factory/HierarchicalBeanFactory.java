@@ -31,6 +31,10 @@ import org.springframework.lang.Nullable;
  * @since 07.07.2003
  * @see org.springframework.beans.factory.config.ConfigurableBeanFactory#setParentBeanFactory
  */
+
+/**
+ * 支持容器有继承关系
+ */
 public interface HierarchicalBeanFactory extends BeanFactory {
 
 	/**

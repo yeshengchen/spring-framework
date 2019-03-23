@@ -37,6 +37,16 @@ import org.springframework.lang.Nullable;
  * @see org.springframework.beans.factory.support.RootBeanDefinition
  * @see org.springframework.beans.factory.support.ChildBeanDefinition
  */
+
+/**
+ * Bean内部描述类
+ *	包括但不限于:
+ *	1. bean名称
+ * 	2. scope(单例,原型)
+ * 	3. 是否延迟加载
+ * 	4. 依赖 bean
+ * 	5. 是否 primary
+ */
 public interface BeanDefinition extends AttributeAccessor, BeanMetadataElement {
 
 	/**

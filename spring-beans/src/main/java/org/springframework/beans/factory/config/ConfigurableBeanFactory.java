@@ -48,6 +48,14 @@ import org.springframework.util.StringValueResolver;
  * @see org.springframework.beans.factory.ListableBeanFactory
  * @see ConfigurableListableBeanFactory
  */
+// 在继承容器基础上,
+
+/**
+ * 具有继承容器,组成单例功能,并增加支持
+ * 1. 设置 classLoader
+ * 2. 设置 BeanPostProcessor
+ * 等等
+ */
 public interface ConfigurableBeanFactory extends HierarchicalBeanFactory, SingletonBeanRegistry {
 
 	/**

@@ -23,6 +23,10 @@ package org.springframework.core;
  * @author Juergen Hoeller
  * @since 2.5.2
  */
+
+/**
+ * 基于alias 注册
+ */
 public interface AliasRegistry {
 
 	/**

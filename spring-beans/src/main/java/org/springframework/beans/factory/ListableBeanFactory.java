@@ -55,6 +55,10 @@ import org.springframework.lang.Nullable;
  * @see HierarchicalBeanFactory
  * @see BeanFactoryUtils
  */
+
+/**
+ * 扩展了通过类型/注解获取多个符合的 bean的能力
+ */
 public interface ListableBeanFactory extends BeanFactory {
 
 	/**
